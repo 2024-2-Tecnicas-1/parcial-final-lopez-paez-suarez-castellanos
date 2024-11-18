@@ -1,10 +1,9 @@
 package logicaNegocio;
 
 public class Delfin extends Animal {
-    
-    
+
     public Delfin() {
-        super(TipoHabitat.ACUATICO); 
+        super(TipoHabitat.ACUATICO);
     }
 
     @Override
@@ -17,4 +16,3 @@ public class Delfin extends Animal {
         return "Pescado";
     }
 }
-

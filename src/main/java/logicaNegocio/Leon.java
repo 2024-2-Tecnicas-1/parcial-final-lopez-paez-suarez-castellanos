@@ -1,8 +1,9 @@
 package logicaNegocio;
 
-public class Leon extends Animal{
+public class Leon extends Animal {
+
     public Leon() {
-        super(TipoHabitat.TERRESTRE); 
+        super(TipoHabitat.TERRESTRE);
     }
 
     @Override
